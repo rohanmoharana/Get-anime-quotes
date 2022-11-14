@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  'Inter', sans-serif;;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+a{
+    text-decoration: none;
+}
+
+:root{
+    --font-color: #d6d6f4;
+    --bg-color: #1f1f30;
+    --light-bg-color: #2d2f47;
+    --theme-color: #6353ED;
+    --hover-color: #4d40c3;
+    --light-font:#b1b1cf;
+    --error-msg:#f24747;
+}
+
+body{
+    background-color: var(--bg-color);
+    color: var(--font-color);
+    display: flex;
+    justify-content: center;
+}
+
+.main{
+    margin-top: 5rem;
+    max-width: 78rem;
+    width: 90%;
+    text-align: center;
+    margin-bottom: 7rem;
+}
+
+.main h2{
+    color: var(--font-color);
+    letter-spacing: .1rem;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 3.5rem;
+}
+
+.main-container{
+    width: 100%;
+}
+
+.error-msg{
+    display: block;
+    margin-top: 3.5rem;
+    margin-bottom: 2rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--error-msg);
+}
+
+.input-search input{
+    width: 55%;
+    background-color: var(--light-bg-color);
+    outline: none;
+    border: 1px solid transparent;
+    padding: 1.2rem ;
+    color: var(--font-color);
+    margin-right: .7rem;
+    border-radius: 1rem;
+}
+
+.input-search input::placeholder{
+    color: var(--font-color);
+    opacity: 0.7;
+}
+
+.input-search input:focus{
+    border: 1px solid var(--hover-color);
+}
+
+.input-search button{
+    padding: 1.2rem 2.7rem;
+    border: 1px solid transparent;
+    outline: none; 
+    background-color: var(--theme-color);
+    color: var(--font-color);
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 1rem;
+    transition: all .3s ease;
+}
+
+.input-search button:hover{
+    background-color: var(--hover-color);
+}
+
+.quote-cards{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.card{
+    background-color: var(--light-bg-color);
+    padding: 3.5rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.5;
+    border-radius: 1.2rem;
+    margin-bottom: 2rem;
+    border-bottom: 4px solid var(--theme-color);
+}
+
+.card .name{
+    margin-top: 2rem;
+    opacity: 1;
+    font-size: 1.45rem;
+    color: var(--light-font);
+}
+
+.info{
+    color: var(--light-font);
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    font-weight: 500;
+}
+
+.info p a{
+    color: var(--light-font);
+    font-size: 1.2rem;
+}
+
+.info p a:hover{
+    color: var(--font-color);
+}
