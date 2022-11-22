@@ -8,7 +8,7 @@ function fetchQuote(inputValue) {
     const options = {
         method: 'GET',
         headers: {
-            'X-RapidAPI-Key': 'da0946b3bamsh439ceed1d93ddc5p102231jsn6acd6186e319',
+            'X-RapidAPI-Key': '7da8db3d77msh68764493639a9adp19b795jsn7c90bd5d3893',
             'X-RapidAPI-Host': 'anime-quotes1.p.rapidapi.com'
         }
     };
