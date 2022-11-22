@@ -12,7 +12,6 @@ function fetchQuote(inputValue) {
             'X-RapidAPI-Host': 'anime-quotes1.p.rapidapi.com'
         }
     };
-
     fetch(`https://anime-quotes1.p.rapidapi.com/api/quotes/character?name=${inputValue}`, options)
         .then(function (response) {
 
